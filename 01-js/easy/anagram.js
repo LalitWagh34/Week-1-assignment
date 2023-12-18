@@ -14,7 +14,7 @@ function sort(str){
 
 }
 
-function isAnagram(str1, str2) {
+function isAnagram(str1, str2)   {
 var str1 = str1.toLowerCase();
 var str2 = str2.toLowerCase();
   if (sort(str1) == sort(str2)){
